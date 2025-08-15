@@ -1,13 +1,12 @@
 # Greenhub — Statewide Cannabis Pricing & Product Discovery (PA)  
 
-<img width="831" height="397" alt="Screenshot 2025-07-04 at 4 07 56 PM" src="https://github.com/user-attachments/assets/9fe919ec-b3dc-4379-ac3f-c28e45db8981" />
-
+<img width="3520" height="1280" alt="Work-pc-04" src="https://github.com/user-attachments/assets/aaa01824-73de-437f-adbc-2e128ba44dbf" />
 
 > Docs‑only public repository. Source code is private. This README shares the system design, performance results, and product outcomes for hiring managers and collaborators.
 
 ## Live
 - Website: https://greenhubpa.com
-- Case Study (technical deep‑dive): https://www.tsundoku.blog/posts
+- Case Study (technical deep‑dive): https://www.tsundoku.blog/posts/greenhub-a-price-and-data-aggregator-for-medical-patients
 
 ## TL;DR
 - **Scale:** ETL **100k+ products/day** across multiple vendor platforms
