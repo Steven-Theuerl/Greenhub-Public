@@ -4,9 +4,12 @@
 
 > Docs‑only public repository. Source code is private. This README shares the system design, performance results, and product outcomes for hiring managers and collaborators.
 
+Built and scaled a statewide platform from scratch, delivering high performance and 100% uptime to thousands of medical patients in Pennsylvania
+
 ## Live
 - Website: https://greenhubpa.com
-- Case Study (technical deep‑dive): https://www.tsundoku.blog/posts/greenhub-a-price-and-data-aggregator-for-medical-patients
+- Case Study: https://www.tsundoku.blog/posts/greenhub-a-price-and-data-aggregator-for-medical-patients
+- Overview Technical Documents available for discussion on calls or interviews!
 
 ## TL;DR
 - **Scale:** ETL **100k+ products/day** across multiple vendor platforms
@@ -25,9 +28,13 @@ Greenhub aggregates statewide dispensary menus, normalizes heterogeneous schemas
 - **Infra:** Hardened Ubuntu VPS, **Nginx** reverse proxy, **TLS** via Certbot, gzip compression
 - **Ops:** Structured logs, scraper diagnostics, per‑store health checks
 
+```
+
 [ Client ] ⇄ [ Nginx (TLS, gzip) ] ⇄ [ Next.js App ] ⇄ [ FastAPI (Uvicorn/PM2) ] ⇄ [ PostgreSQL ]  
 │  
 └── [ Scraper Engine (per‑platform modules, Playwright/Requests) ]
+
+```
 
 ## Data Pipeline (ETL)
 1. **Extract** — Platform‑specific modules (API/XHR/Playwright) pull product catalogs.
