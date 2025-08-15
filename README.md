@@ -23,8 +23,8 @@ Greenhub aggregates statewide dispensary menus, normalizes heterogeneous schemas
 - **Infra:** Hardened Ubuntu VPS, **Nginx** reverse proxy, **TLS** via Certbot, gzip compression
 - **Ops:** Structured logs, scraper diagnostics, per‑store health checks
 
-[ Client ] ⇄ [ Nginx (TLS, gzip) ] ⇄ [ Next.js App ] ⇄ [ FastAPI (Uvicorn/PM2) ] ⇄ [ PostgreSQL ]
-│
+[ Client ] ⇄ [ Nginx (TLS, gzip) ] ⇄ [ Next.js App ] ⇄ [ FastAPI (Uvicorn/PM2) ] ⇄ [ PostgreSQL ]  
+│  
 └── [ Scraper Engine (per‑platform modules, Playwright/Requests) ]
 
 ## Data Pipeline (ETL)
