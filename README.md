@@ -1,4 +1,7 @@
-# Greenhub — Statewide Cannabis Pricing & Product Discovery (PA)
+# Greenhub — Statewide Cannabis Pricing & Product Discovery (PA)  
+
+<img width="831" height="397" alt="Screenshot 2025-07-04 at 4 07 56 PM" src="https://github.com/user-attachments/assets/9fe919ec-b3dc-4379-ac3f-c28e45db8981" />
+
 
 > Docs‑only public repository. Source code is private. This README shares the system design, performance results, and product outcomes for hiring managers and collaborators.
 
