@@ -66,8 +66,8 @@ Greenhub aggregates statewide dispensary menus, normalizes heterogeneous schemas
 
 ## Credits
 - **Engineering:** Steven Theuerl (Founder/CTO)
-- **Engineering:** Jack Weber (Founder/CFO)
 - **Design:** Yuu Ito (UI/UX, layout, illustrations)
+- **Marketing:** Jack Weber (Founder/CFO)
 
 ## Contact
 - Email: mr.steven.theuerl@gmail.com · LinkedIn: https://www.linkedin.com/in/steven-theuerl-919175209/
