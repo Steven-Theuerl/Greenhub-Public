@@ -4,19 +4,21 @@
 
 > Docs‑only public repository. Source code is private. This README shares the system design, performance results, and product outcomes for hiring managers and collaborators.
 
-Built and scaled a statewide platform from scratch, delivering high performance and 100% uptime to thousands of medical patients in Pennsylvania
-
-## Live
-- Website: https://greenhubpa.com
-- Case Study: https://www.tsundoku.blog/posts/greenhub-a-price-and-data-aggregator-for-medical-patients
-- Overview Technical Documents available for discussion on calls or interviews!
-
 ## TL;DR
 - **Scale:** ETL **100k+ products/day** across multiple vendor platforms
 - **Speed:** ~**4s** initial render for **25k** results; **sub‑1s** client‑side filter/sort at that scale
 - **Users:** **1.5k+** unique users in first month; ~**150 DAU**; **5–7 min** avg session
 - **Reliability:** 100% uptime since alpha
 - **Security:** **JWT** auth, **bcrypt** password hashing, env‑scoped secrets, protected admin endpoints
+
+## Role & Contributions
+
+Built and scaled a statewide platform from scratch, delivering high performance and 100% uptime to thousands of medical patients in Pennsylvania
+
+## Live
+- Website: https://greenhubpa.com
+- Case Study: https://www.tsundoku.blog/posts/greenhub-a-price-and-data-aggregator-for-medical-patients
+- Overview Technical Documents available for discussion on calls or interviews!
 
 ## What It Does
 Greenhub aggregates statewide dispensary menus, normalizes heterogeneous schemas (weights, categories, brands, terpene data), and delivers fast, patient‑friendly search, filtering, and price‑drop/restock notifications.
