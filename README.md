@@ -11,6 +11,9 @@
 - **Reliability:** 100% uptime since alpha
 - **Security:** **JWT** auth, **bcrypt** password hashing, env‑scoped secrets, protected admin endpoints
 
+![Diagram](https://github.com/user-attachments/assets/61539b85-6229-4a14-b4bd-12bdecd575d6)
+
+
 ## Role & Contributions
 
 Built and scaled a statewide platform from scratch, delivering high performance and 100% uptime to thousands of medical patients in Pennsylvania
