@@ -20,7 +20,8 @@ Built and scaled a statewide platform from scratch, delivering high performance 
 
 ## Live
 - Website: https://greenhubpa.com
-- Case Study: https://www.tsundoku.blog/posts/greenhub-a-price-and-data-aggregator-for-medical-patients
+- Loom Showcase: https://www.loom.com/share/a706386afcc6498c828e4bc6726b5ac1?sid=7ebce355-5fc1-4099-b270-b8eb87c64925
+- Case Study: https://www.tsundoku.blog/posts/making-data-beautiful-building-greenhub-s-end-to-end-architecture
 - Overview Technical Documents available for discussion on calls or interviews!
 
 ## What It Does
